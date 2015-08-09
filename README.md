@@ -2,9 +2,9 @@
 
 A Clojure app that can be deployed to Heroku and update your PG materialized view periodically using Heroku scheduler.
 
-## Usage
+## Deploy
 
-FIXME
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 ## Contributions
 
