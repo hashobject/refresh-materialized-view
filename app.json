@@ -24,5 +24,8 @@
       "description": "Name of materialized view to be refreshed",
       "required": "true"
     }
-  }
+  },
+  "addons": [
+    "scheduler"
+  ]
 }
