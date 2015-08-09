@@ -23,6 +23,6 @@
     "DB_MATERIALIZED_VIEW": {
       "description": "Name of materialized view to be refreshed",
       "required": "true"
-    },
+    }
   }
 }
