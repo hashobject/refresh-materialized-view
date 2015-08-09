@@ -1,0 +1,28 @@
+{
+  "name": "PG materialized view refresher",
+  "description": "Refresh materialized view",
+  "repository": "https://github.com/hashobject/refresh-materialized-view",
+  "keywords": ["clojure", "postgres", "materialized view"],
+  "env": {
+    "DB_HOST": {
+      "description": "Postgres db host",
+      "required": "true"
+    },
+    "DB_NAME": {
+      "description": "Postgres db name",
+      "required": "true"
+    },
+    "DB_USER": {
+      "description": "Postgres db user",
+      "required": "true"
+    },
+    "DB_PASSWORD": {
+      "description": "Postgres db password",
+      "required": "true"
+    },
+    "DB_MATERIALIZED_VIEW": {
+      "description": "Name of materialized view to be refreshed",
+      "required": "true"
+    },
+  }
+}
